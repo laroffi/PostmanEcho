@@ -32,7 +32,7 @@ class PostmanTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("A massage posted here"))
+                .body("data", equalTo("The test will fail"))
         ;
     }
 }
